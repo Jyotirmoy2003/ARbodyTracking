@@ -22,7 +22,8 @@ This application tracks a user's upper body in real-time using a webcam. A Pytho
 
 ## 🏗️ Architecture
 
-> *(Insert Eraser.io diagram here)*
+> <img width="1190" height="750" alt="Architecture Diagram" src="https://github.com/user-attachments/assets/e3d50430-9098-4585-819d-4108fb66ee78" />
+
 
 | Layer | Technology | Role |
 |-------|-----------|------|
@@ -117,19 +118,3 @@ An OpenCV preview window will open showing your webcam feed with skeleton overla
 
 ---
 
-## 📁 Project Structure
-
-ARBodyTracking/
-├── Assets/
-│   ├── Scripts/
-│   │   ├── WebcamDisplay.cs       # Webcam feed → RawImage
-│   │   ├── WebSocketClient.cs     # Receives joint data from Python
-│   │   ├── PoseManager.cs         # Maps joints → Canvas positions
-│   │   └── JointMarker.cs         # UI marker behaviour
-│   ├── Prefabs/
-│   │   └── JointMarkerUI.prefab   # Green UI dot marker
-│   ├── Scenes/
-│   │   └── SampleScene.unity
-│   └── Materials/
-├── pose_server.py                 # Python MediaPipe + WebSocket server
-└── README.md
