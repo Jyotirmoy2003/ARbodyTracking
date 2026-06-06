@@ -58,7 +58,7 @@ This application tracks a user's upper body in real-time using a webcam. A Pytho
 
 ### Step 1 — Clone the Repository
 ```bash
-git clone https://github.com/yourusername/ARBodyTracking.git
+git clone https://github.com/Jyotirmoy2003/ARbodyTracking.git
 cd ARBodyTracking
 ```
 
