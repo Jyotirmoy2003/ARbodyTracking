@@ -1,10 +1,10 @@
 # 🎯 AR Body Tracking Demo
 > Real-time upper body pose detection overlaid on a live webcam feed, built with Unity 6 and MediaPipe.
 
-<img src="https://img.shields.io/badge/Unity-6000.x-000000?style=flat&logo=unity&logoColor=white" alt="Unity"/>
-<img src="https://img.shields.io/badge/Python-3.10+-3776AB?style=flat&logo=python&logoColor=white" alt="Python"/>
-<img src="https://img.shields.io/badge/MediaPipe-0.10.9-FF6F00?style=flat" alt="MediaPipe"/>
-<img src="https://img.shields.io/badge/Platform-Windows-0078D6?style=flat&logo=windows&logoColor=white" alt="Platform"/>
+![Unity](https://img.shields.io/badge/Unity-6000.x-black?logo=unity)
+![Python](https://img.shields.io/badge/Python-3.10+-blue?logo=python)
+![MediaPipe](https://img.shields.io/badge/MediaPipe-0.10.9-orange)
+![Platform](https://img.shields.io/badge/Platform-Windows-lightgrey?logo=windows)
 
 ---
 
